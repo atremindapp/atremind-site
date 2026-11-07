@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>@remind プライバシーポリシー</title>
+<style>
+:root{--ink:#121417;--ink-2:#3B4149;--muted:#6E747D;--paper:#F4F4F1;--card:#fff;--go:#0E9F5B;--line:#E2E3E0;--link:#1F5FD6}
+@media (prefers-color-scheme: dark){:root{--ink:#F1F3F5;--ink-2:#C9CED4;--muted:#9AA3AE;--paper:#0F1215;--card:#1A1E23;--line:#2A3038;--link:#7FA8F5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic UI",sans-serif;line-height:1.8;-webkit-font-smoothing:antialiased}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:26px;line-height:1.4;margin:0 0 16px}
+h1::before{content:"";display:block;width:40px;height:6px;border-radius:3px;background:var(--go);margin-bottom:16px}
+h2{font-size:19px;margin:36px 0 10px;padding-top:12px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:24px 0 8px}
+p,li{color:var(--ink-2);font-size:15px}
+ul{padding-left:1.3em}
+a{color:var(--link);word-break:break-all}
+.tbl{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;min-width:520px;background:var(--card);border-radius:10px;overflow:hidden;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-size:13px;color:var(--muted)}
+footer{margin-top:48px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>@remind プライバシーポリシー</h1>
+<p>制定日：2026年12月1日<br>運営者：Takehito Yokoyama（以下「運営者」）</p>
+<p>@remind（以下「本アプリ」）は、登録した場所に着いたとき・離れたときに、リマインド（思い出したいこと）を通知するアプリです。運営者は、利用者の情報を次のとおり取り扱います。</p>
+<h2>1. 基本の考え方</h2>
+<ul><li>本アプリは、<strong>位置情報・登録した場所・リマインドの内容を、運営者のサーバーに送りません。</strong> これらは利用者の端末の中にだけ保存します。</li><li>運営者は、利用者の位置情報やリマインドの内容を見ることができません。</li><li>本アプリには<strong>広告を入れていません</strong>。運営者が利用状況を分析するためのツールも使っていません（地図の部品が Google に送る情報は3章のとおりです）。</li></ul>
+<h2>2. 本アプリが端末の中で扱う情報</h2>
+<div class="tbl"><table><thead><tr><th>情報</th><th>使う目的</th><th>保存場所</th></tr></thead><tbody><tr><td>現在地（位置情報）</td><td>登録した場所に着いた・離れたことの判定、場所までの方角と距離の表示、地図への現在地の表示</td><td>保存しません（その場で使うだけ）</td></tr><tr><td>登録した場所（名前・地図上の位置・範囲）</td><td>着いた・離れたことの判定</td><td>端末の中</td></tr><tr><td>リマインドの内容・繰り返しの設定</td><td>通知の表示</td><td>端末の中</td></tr><tr><td>リマインドのメモ・リンク（任意）</td><td>リマインドの詳細の表示。メモに書いたリンクは、利用者が押したときだけブラウザで開きます（通知には表示しません）</td><td>端末の中</td></tr><tr><td>通知の履歴（直近100件）</td><td>履歴の画面の表示</td><td>端末の中</td></tr><tr><td>端末の向き（方角のセンサー）</td><td>場所の方角を矢印で示すため</td><td>保存しません（その場で使うだけ）</td></tr><tr><td>アプリの設定</td><td>ロック画面で内容を隠す、などの設定</td><td>端末の中</td></tr></tbody></table></div>
+<ul><li>端末の中のデータは、本アプリ専用の保存領域に置き、他のアプリからは読めません。</li><li>端末のバックアップや、機種変更時のデータ転送の対象にはしていません。そのため、<strong>機種を変更すると、データは引き継がれません。</strong></li><li>本アプリを削除すると、これらのデータもすべて削除されます。アプリ内の「設定 → データをすべて削除」でも削除できます（あわせて、登録した場所の見守り（ジオフェンス）の登録も解除します）。</li></ul>
+<h3>アプリを閉じている間の位置情報（バックグラウンドの位置情報）</h3>
+<p>本アプリは、アプリを閉じている間も、登録した場所に着いた・離れたことを知らせるために、位置情報を使います。この判定は、Google Play 開発者サービスが提供する「ジオフェンス」という機能を使って端末の中で行います。本アプリが、判定の結果や位置情報を運営者に送ることはありません。利用者は、端末の設定でいつでもこの許可を取り消せます（取り消すと、アプリを閉じている間は通知されません）。</p>
+<h2>3. 外部に送られる情報（外部送信）</h2>
+<p>本アプリの次の機能を使うと、Google LLC（以下「Google」）などに情報が送られます。送られた情報は、送り先のプライバシーポリシーに従って扱われます。</p>
+<div class="tbl"><table><thead><tr><th>機能</th><th>送られる情報</th><th>送り先</th><th>目的</th></tr></thead><tbody><tr><td>駅名・住所の検索</td><td>検索欄に入力した文字</td><td>端末に搭載された住所検索サービスの提供元（Google Play 開発者サービスが入った多くの端末では Google）</td><td>入力した場所の地図上の位置を調べるため</td></tr><tr><td>地図の表示（Google マップ）</td><td>表示している範囲の地図を取得するための情報（表示範囲、IP アドレス）。また Google の説明では、地図の部品（Maps SDK）が自動で、端末の情報（機種・OS・部品の版など）、地図の部品の中で起きた不具合の情報、利用者数を数えるための仮の識別子を送り、設定によっては地図の操作（移動・拡大）の情報を送ることがあります</td><td>Google</td><td>地図を表示するため。Google のサービスの改善のため（Google の説明による）</td></tr><tr><td>位置情報・ジオフェンス</td><td>本アプリは送りません。現在地の取得と、着いた・離れたことの判定は、端末の Google Play 開発者サービスが行います。Google Play 開発者サービスが位置情報を Google に送るかどうかは、Google のポリシーと端末の設定（「Google 位置情報の精度」など）によります</td><td>（本アプリからの送信はありません）</td><td>現在地の取得、着いた・離れたことの判定のため</td></tr></tbody></table></div>
+<ul><li>Google のプライバシーポリシー：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li><li>地図の部品（Maps SDK）が送る情報についての Google の説明：<a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure">https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure</a></li><li>Google Play 開発者サービスと位置情報についての Google の説明：<a href="https://support.google.com/android/answer/10645642">https://support.google.com/android/answer/10645642</a></li></ul>
+<h2>4. 第三者への提供</h2>
+<p>運営者は、利用者の情報を第三者に提供しません。運営者はそもそも、利用者の位置情報やリマインドの内容を受け取っていません。3章の外部送信は、利用者が機能を使ったときに、端末から Google などへ直接送られるものです。</p>
+<h2>5. 通知について</h2>
+<ul><li>通知には、場所の名前とリマインドの内容が表示されます。</li><li>「設定 → ロック画面で内容を隠す」をオンにすると、ロック画面では場所の名前とリマインドの内容を表示しません（初期設定はオン）。</li><li>表示された通知は、Android の通知の仕組みで扱われます。端末の設定によっては、Android の「通知履歴」や、連携しているスマートウォッチなどにも表示・保存されることがあります。</li></ul>
+<h2>6. お子さまの利用</h2>
+<p>本アプリは、13歳未満のお子さまを対象としていません。</p>
+<h2>7. 安全のための取り組み</h2>
+<ul><li>端末の中のデータは、本アプリ専用の保存領域に保存し、他のアプリから読めないようにしています。</li><li>暗号化されていない通信（http）を使わない設定にしています。</li><li>公開前に、攻撃者の立場での点検（疑似攻撃）を行い、見つかった問題を修正しています。</li></ul>
+<h2>8. このポリシーの変更</h2>
+<p>機能の追加などに合わせて、このポリシーを変更することがあります。大切な変更（新しく外部に送る情報が増える、など）のときは、アプリ内またはストアの説明でお知らせします。</p>
+<h2>9. 運営者とお問い合わせ</h2>
+<p>本アプリの情報の扱いについてのお問い合わせ・ご相談は、次の窓口でメールにて受け付けます。</p>
+<ul><li>運営者：Takehito Yokoyama（個人で運営しています）</li><li>窓口：<a href="mailto:atremind.app@gmail.com">atremind.app@gmail.com</a></li><li>住所：ご請求があった場合には、遅滞なくお知らせします。</li><li>お問い合わせへの回答は、原則として5営業日以内にメールで行います。</li></ul>
+<footer>@remind</footer>
+</main>
+</body>
+</html>
